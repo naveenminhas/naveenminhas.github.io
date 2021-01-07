@@ -1,0 +1,128 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #C8BFC7;
+}
+
+nav{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding:24px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.nav-item{
+	width: 32%;
+	padding: 4px;
+	margin: 4px;
+	text-align: center;
+}
+.nav-item a{
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: none;
+	color: #343A40;
+	font-family: 'Proza Libre', 'sans-serif';
+	font-size: 21px;
+	font-weight: bold;
+
+}
+.nav-item a:hover{
+	color: #090302;
+}
+.nav-item.one a:hover{
+	font-size: 21.5px;
+	transition: font-size 0.1s ease-in-out;
+}
+.nav-item.two a:hover{
+	font-size: 21.5px;
+	transition: font-size 0.1s ease-in-out;
+}
+.nav-item.three a:hover{
+	font-size: 21.5px;
+	transition: font-size 0.1s ease-in-out;
+}
+
+
+
+#middle-section{
+	padding: 4px 32px;
+}
+#welcome-message{
+	max-width: 40%;
+	position: absolute;
+	left: 200px;
+	top: 150px;
+}
+.message{
+	font-family: 'Asap', 'sans-serif';
+	color: #090302;
+	line-height: 60px;
+}
+.message.one{
+	font-size: 55px;
+}
+.message.two{
+	font-size: 34px;
+}
+.message.three{
+	font-size: 21px;
+}
+#profile-pic{
+	position: absolute;
+	right: 50px;
+	top: 150px;
+	background:white;
+	width: 300px;
+	height: 400px;
+	overflow: hidden;
+	border-radius: 70px;
+}
+img{
+	width:100%;
+	height: auto;
+}
+
+
+
+footer{
+	position: fixed;
+	bottom: 0px;
+	margin: 16px;
+	margin-left: 60px;
+}
+.fa {
+  padding: 16px;
+  margin: 4px;
+  font-size: 25px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram{
+	background:red;
+	color: white;
+}
