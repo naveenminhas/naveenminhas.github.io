@@ -57,6 +57,10 @@ nav{
 	position: absolute;
 	left: 200px;
 	top: 150px;
+	margin: 0;
+  	top: 50%;
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
 }
 .message{
 	font-family: 'Asap', 'sans-serif';
@@ -81,6 +85,10 @@ nav{
 	height: 400px;
 	overflow: hidden;
 	border-radius: 70px;
+	margin: 0;
+  	top: 50%;
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
 }
 img{
 	width:100%;
@@ -126,3 +134,5 @@ footer{
 	background:red;
 	color: white;
 }
+
+
